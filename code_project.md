@@ -1,13 +1,13 @@
-# PHYS265 2025 Code Project - version 24-apr
+# PHYS265 2025 Code Project - version 8-may
 
-   See also: https://github.com/astroumd/PHYS265-spring25/blob/main/code_project.md
+   See also: https://github.com/astroumd/PHYS265-spring25-final/blob/main/code_project.md
    
-This *Code Project* is your final project for PHYS265.  In this
-project you will select a (python based) open source project. It is
-your task to evaluate this software package by using it and writing a
-report (software review if you wish) based on an itemized list you see
-below.  Describe them in your own words and experiences, the intent is
-not to reproduce their documentation.
+This *Code Project* is your final project for PHYS265, there is no
+exam.  In this project you will select a (python based) open source
+project. It is your task to evaluate this software package by using it
+and writing a report (software review if you wish) based on an
+itemized list you see below.  Describe them in your own words and
+experiences, the intent is not to reproduce their documentation.
 
 Project titles are due by Wednesday May 7.
 Two more in-class `lab` sessions are on May 9 and May 12,
@@ -21,8 +21,8 @@ You will first need to learn how to install and use the package, show
 some results and one or two figures to illustrate your findings.  All
 of this will be summarized in an itemized report presented in PDF. You
 also need to show your code example(s) how you exercised the code, in
-a notebook. A README file is optional. Please name and date your
-report!
+a standard jupyter notebook (ipynb file). A README file is
+optional. Please name and date your report!
 
 NOTE: We again submit on github, and you will use the **Project**
 folder inside your existing github repository that you used for the labs.
@@ -45,7 +45,7 @@ Your report can be an enumerated list of answers (see also the
 2. why/how did you select this package?
 3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes that
    solve the same problem?
-4. is it still maintained, and by the original author(s)?
+4. is it still maintained, and by the original author(s)? Are there instructions how to contribute to this project.
 5. evaluate how easy it was to install and use. What commands did you use to install?
 6. does it install via the "standard" pip/conda, or is it more complex? 
 7. is the source code available? For example, "pip install galpy" may get it to you, but where can you inspect the code?
@@ -65,7 +65,8 @@ Your report can be an enumerated list of answers (see also the
 20. if you use this code in a paper, do they give a preferred citation method? 
 21. provide any other references you used in your report. 
 22. can you find two other papers that used this package.  E.g. use ADS citations for ASCL based code. 
-23. did you have to learn new python methods to use this package?
+23. did you have to learn new python methods to use this package? I.e. was the class good enough to get you through this project.
+24. Final Disclaimer: you need to state if you have prior experience in using the package or the data, or this is all new to you
 
 ## Suggested projects
 
@@ -228,7 +229,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
   OK
 
-- CONCEPT: COsmological N-body CodE in PyThon - https://ascl.net/2306.035
+- CONCEPT: COsmological N-body CodE in PyThon - https://ascl.net/2306.035pnbody 
 
   Too compute intensive!!!
 
@@ -247,7 +248,15 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
   multi-component hyperfine spectra fitting in astronomical data. MCMC approach.
 
-  
+
+## Example datasets
+
+These will be in the subdirectory PHYS265-spring25/data
+
+- a fits cube:   NGC6503.fits
+
+- an ascii spectrum with spectral lines to fit:
+
 ## Installation Guidelines
 
 Most python packages can be installed with pip.   Within JDL this would be the following
@@ -270,3 +279,9 @@ mean the following commands
 
 There were a few packages where the regular pip install did not work, but a source install like this
 did work. go figure.
+
+
+## Caveats
+
+Reproducability?  What worked once, may not work anymore.    How does your code depend on what python
+version, module version??   etc.  need to say more on this.
