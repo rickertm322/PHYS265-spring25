@@ -278,7 +278,3 @@ There were a few packages where the regular pip install did not work, but a sour
 did work. go figure.
 
 
-## Caveats
-
-Reproducability?  What worked once, may not work anymore.    How does your code depend on what python
-version, module version??   etc.  need to say more on this.
