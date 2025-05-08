@@ -1,3 +1,15 @@
+# fits cube
+
+* ngc6503.fits
+
+This is the galaxy NGC6503 observed with the VLA.  It has very clear
+signal in the (neutral) HI line. Good example of flat rotation curve
+from which we think it showcases the dark matter problem.  There's a
+program online you can download from
+https://sites.google.com/cfa.harvard.edu/saoimageds9/download that
+allows you to preview the different slices in this cube, and even plot
+a spectrum as a selected region.
+
 
 # spectral lines in a MUSE dataset of NGC253
 
