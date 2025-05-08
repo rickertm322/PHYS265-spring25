@@ -135,30 +135,5 @@ This shows one of the complaints of software being in two references on ADS.
 
 [23] Not applicable to me, so the answer is no. there was nothing new here.
 
-## Original checklist of items to weave into your report
+[24] I've used NEMO extensively, both as author and user.
 
-1. name of the package, and what is the basic aim of what the package does or solve?
-2. why/how did you select this package?
-3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes that
-   solve the same problem?
-4. is it still maintained, and by the original author(s)?
-5. evaluate how easy it was to install and use. What commands did you use to install?
-6. does it install via the "standard" pip/conda, or is it more complex? 
-7. is the source code available? For example, "pip install galpy" may get it to you, but where can you inspect the code?
-8. is the code used by other packages (if so, give one or two examples)
-9. give an example how you use the code. Is it commandline, or jupyter notebook, or a web interface?
-10. provide examples using the code. if you prefer to use a jupyter notebook instead of a python script, that's ok.
-11. does the package produce figures, or are you on your own? Is matplotlib used?
-12. your code and report should show at least one figure, and create a nice figure caption explaining what it shows. You notebook
-    should show how the figure was made (reproducable)
-13. is the package pure python? or does it need accompanying C/C++/Fortran code?
-14. what is the input to the package? Just parameters, or dataset(s), or can they be generated from scratch?
-15. what is the output of the package? Just parameters, or dataset(s)?
-16. does the code provide any unit tests, regression or benchmarking?
-17. how can you feel confident the code produce a reliable result? (see also previous question)
-18. what (main) python package(s) does it use or depend on (e.g. numpy, curve_fit, solve_ivp) - how did you find this out?
-19. what kind of documentation does the package provide?  was it sufficient for you?
-20. if you use this code in a paper, do they give a preferred citation method? 
-21. provide any other references you used in your report. 
-22. can you find two other papers that used this package.  E.g. use ADS citations for ASCL based code. 
-23. did you have to learn new python methods to use this package?
