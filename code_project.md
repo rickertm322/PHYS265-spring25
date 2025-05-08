@@ -39,33 +39,38 @@ instructors for approval. We do not want you to waste time getting the
 package to run.
 
 Your report can be an enumerated list of answers (see also the
-[NEMO example](Project_example/report_nemo.md).  Each question below is worth 3 points.
+[NEMO example](Project_example/report_nemo.md).  Each question below is worth 3 points, but final score
+is normalized to the questions that have an answer (e.g. if a package has no citation). You are however
+responsible for finding out that there is no answer!
 
-1. name of the package, and what is the basic aim of what the package does or solve?
-2. why/how did you select this package?
-3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes that
-   solve the same problem?
+
+1. name of the package, describe what is the basic aim of what the package does or solve?
+2. why/how did **you** select this package?
+3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes
+   you can find that solve the same problem?
 4. is it still maintained, and by the original author(s)? Are there instructions how to contribute to this project.
 5. evaluate how easy it was to install and use. What commands did you use to install?
 6. does it install via the "standard" pip/conda, or is it more complex? 
 7. is the source code available? For example, "pip install galpy" may get it to you, but where can you inspect the code?
-8. is the code used by other packages (if so, give one or two examples)
-9. give an example how you use the code. Is it commandline, or jupyter notebook, or a web interface?
-10. provide examples using the code. if you prefer to use a jupyter notebook instead of a python script, that's ok.
+8. is the code used by other packages (if so, give one or two examples). ASCL codes have citations via their ADS link.
+   See also 22.
+9.  How is the code used. Is it commandline, python script, or a jupyter notebook, or even a web interface?
+10. provide examples using the code. if you prefer to use a jupyter notebook instead of a python script, that's ok. See also 12.
 11. does the package produce figures, or are you on your own? Is matplotlib used?
 12. your code and report should show at least one figure, and create a nice figure caption explaining what it shows. You notebook
-    should show how the figure was made (reproducable)
+    should show how the figure was made (i.e. be reproducable). Second figure is optional, but only use it when you need to
+    illustrate something extra.
 13. is the package pure python? or does it need accompanying C/C++/Fortran code?
 14. what is the input to the package? Just parameters, or dataset(s), or can they be generated from scratch?
-15. what is the output of the package? Just parameters, or dataset(s)?
+15. what is the output of the package? Just parameters, or dataset(s)?, or just a screen output you would need to capture
 16. does the code provide any unit tests, regression or benchmarking?
 17. how can you feel confident the code produce a reliable result? (see also previous question)
 18. what (main) python package(s) does it use or depend on (e.g. numpy, curve_fit, solve_ivp) - how did you find this out?
 19. what kind of documentation does the package provide?  was it sufficient for you?
 20. if you use this code in a paper, do they give a preferred citation method? 
 21. provide any other references you used in your report. 
-22. can you find two other papers that used this package.  E.g. use ADS citations for ASCL based code. 
-23. did you have to learn new python methods to use this package? I.e. was the class good enough to get you through this project.
+22. can you find two other papers that used this package.  E.g. use ADS citations for ASCL based code.  See also 8.
+23. did you have to learn new python methods to use this package? Or was the class good enough to get you through this project.
 24. Final Disclaimer: you need to state if you have prior experience in using the package or the data, or this is all new to you
 
 ## Suggested projects
@@ -91,10 +96,6 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
   OK. Fitting spectral lines. see also specutils.
 
-- PyModelFit: Model-fitting Framework and GUI Tool - https://ascl.net/1109.010
-
-  Seems only works in python2
-
 - PyEphem: Astronomical Ephemeris for Python - https://ascl.net/1112.014
 
   OK. but has no graphics, you will need to create your own
@@ -109,7 +110,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
          pip install ./pNbody
 
-  worked though.
+  worked for me.
 
 - corner.py: Corner plots - https://ascl.net/1702.002
 
@@ -132,17 +133,9 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 - Astropy: Community Python library for astronomy - https://ascl.net/1304.002
 
   ok. large body of code, some subset should be used. There's a nice model fitting tool in astropy.
-  also specutils, which is like pyspeckit.
-
-- AstroAsciiData: ASCII table Python module - https://ascl.net/1311.003
-
-  Only works with python2?
+  also specutils, which is like pyspeckit. And of course fits I/O where you can learn about FITS cubes.
 
 - SunPy: Python for Solar Physicists - https://ascl.net/1401.010		
-
-- pyExtinction: Atmospheric extinction - https://ascl.net/1403.002
-
-  It's still python2, why oh why
 
 - Gammapy: Python toolbox for gamma-ray astronomy - https://ascl.net/1711.014
 
@@ -239,6 +232,8 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
   of simulations of different nature (n-body, stellar evolution, hydro dynamics etc.)
   Has a sister code called OMUSE from our Oceanography colleagues
 
+  Needs MPI and various support libraries.
+
 - FINUFFT: Flatiron Institute Nonuniform Fast Fourier Transform  - https://ascl.net/2412.007
 
   Has CPU options, GPU is over our paygrade.  Nice way to compare good old numpy fft with
@@ -246,12 +241,14 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - McFine: Muli-component hyperfine fitting tool  - https://ascl.net/2411.021
 
-  multi-component hyperfine spectra fitting in astronomical data. MCMC approach.
+  multi-component hyperfine spectra fitting in astronomical data. MCMC approach. Can be related
+  to PySpecKit.
 
 
 ## Example datasets
 
-These will be in the subdirectory PHYS265-spring25/data
+These will be in the subdirectory PHYS265-spring25/data.  Check the README file for potentially
+updated descriptions.
 
 - a fits cube:   NGC6503.fits
 
