@@ -44,6 +44,10 @@ is normalized to the questions that have an answer (e.g. if a package has no cit
 responsible for finding out that there is no answer!
 
 
+0. Title: your title should start with the package name, feel free to then append a added description, e.g.
+        NEMO: where did the fish go?
+   Author:  don't forget to author your work.
+	
 1. name of the package, describe what is the basic aim of what the package does or solve?
 2. why/how did **you** select this package?
 3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes
