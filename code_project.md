@@ -44,9 +44,9 @@ is normalized to the questions that have an answer (e.g. if a package has no cit
 responsible for finding out that there is no answer!
 
 
-0. Title: your title should start with the package name, feel free to then append a added description, e.g.
+0. Title: your title should start with the package name, feel free to use a Combination Title, e.g.
         NEMO: where did the fish go?
-   Author:  don't forget to author your work.
+   Author:  don't forget to author your work, a date is always nice too.
 	
 1. name of the package, describe what is the basic aim of what the package does or solve?
 2. why/how did **you** select this package?
@@ -75,7 +75,9 @@ responsible for finding out that there is no answer!
 21. provide any other references you used in your report. 
 22. can you find two other papers that used this package.  E.g. use ADS citations for ASCL based code.  See also 8.
 23. did you have to learn new python methods to use this package? Or was the class good enough to get you through this project.
-24. Final Disclaimer: you need to state if you have prior experience in using the package or the data, or this is all new to you
+24. Final Disclaimer: you need to state if you have prior experience in using the package or the data, or this is all new to you.
+    In addition, if you collaborated in a group, as long as this is your work.
+    
 
 ## Suggested projects
 
