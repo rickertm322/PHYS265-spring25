@@ -13,7 +13,8 @@ a spectrum as a selected region.
 
 # fits images
 
-Sepcifically for aplpy, there is a http://aplpy.github.io/downloads/tutorial.tar.gz
+Specifically for aplpy, there is a http://aplpy.github.io/downloads/tutorial.tar.gz
+but also included here as tutorial.zip
 
 # spectral lines in a MUSE dataset of NGC253
 
