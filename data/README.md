@@ -11,6 +11,10 @@ allows you to preview the different slices in this cube, and even plot
 a spectrum as a selected region.
 
 
+# fits images
+
+Sepcifically for aplpy, there is a http://aplpy.github.io/downloads/tutorial.tar.gz
+
 # spectral lines in a MUSE dataset of NGC253
 
 * ngc253_ha.tab - Halpha.    x=Angstrom y=arbitrary units    - this spectrum also has the two [NII] lines
