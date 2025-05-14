@@ -1,4 +1,4 @@
-# PHYS265 2025 Code Project - version 8-may
+# PHYS265 2025 Code Project - version 12-may
 
    See also: https://github.com/astroumd/PHYS265-spring25-final/blob/main/code_project.md
    
@@ -51,7 +51,10 @@ responsible for finding out that there is no answer!
 1. name of the package, describe what is the basic aim of what the package does or solve?
 2. why/how did **you** select this package?
 3. how old is the package? does it have a geneology, i.e. what related codes came before or after. are there other codes
-   you can find that solve the same problem?
+   you can find that solve the same problem? Can you figure out which version you installed?  Often this is
+   
+                import package; print(package.__version__)
+   
 4. is it still maintained, and by the original author(s)? Are there instructions how to contribute to this project.
 5. evaluate how easy it was to install and use. What commands did you use to install?
 6. does it install via the "standard" pip/conda, or is it more complex? 
