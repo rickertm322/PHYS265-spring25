@@ -1,4 +1,4 @@
-# PHYS265 2025 Code Project - version 12-may
+# PHYS265 2025 Code Project - version 14-may
 
    See also: https://github.com/astroumd/PHYS265-spring25-final/blob/main/code_project.md
    
@@ -11,7 +11,7 @@ experiences, the intent is not to reproduce their documentation.
 
 Project titles are due by Wednesday May 7.
 Two more in-class `lab` sessions are on May 9 and May 12,
-with final office hours on May 15. **Due date will be Friday, May 16,
+with final office hours on May 15. **Due date will be Sunday, May 18,
 at the usual 11.59pm time**
 
 Email your project title to:   teuben@umd.edu - you will need to
@@ -20,8 +20,8 @@ have received an approval from Peter or Brian before you can start work.
 You will first need to learn how to install and use the package, show
 some results and one or two figures to illustrate your findings.  All
 of this will be summarized in an itemized report presented in PDF. You
-also need to show your code example(s) how you exercised the code, in
-a standard jupyter notebook (ipynb file). A README file is
+also need to show your code and data example(s) how you exercised the
+code, in a standard jupyter notebook (ipynb file). A README file is
 optional. Please name and date your report!
 
 NOTE: We again submit on github, and you will use the **Project**
@@ -38,9 +38,10 @@ require a supercomputer.  Always run your selection by your
 instructors for approval. We do not want you to waste time getting the
 package to run.
 
-Your report can be an enumerated list of answers (see also the
-[NEMO example](Project_example/report_nemo.md).  Each question below is worth 3 points, but final score
-is normalized to the questions that have an answer (e.g. if a package has no citation). You are however
+Your report can be an enumerated list of answers (see also the [NEMO
+example](Project_example/report_nemo.md).  Each question below is
+worth 3 points, but final score is normalized to the questions that
+have an answer (e.g. if a package has no citation). You are however
 responsible for finding out that there is no answer!
 
 
@@ -66,7 +67,7 @@ responsible for finding out that there is no answer!
 11. does the package produce figures, or are you on your own? Is matplotlib used?
 12. your code and report should show at least one figure, and create a nice figure caption explaining what it shows. You notebook
     should show how the figure was made (i.e. be reproducable). Second figure is optional, but only use it when you need to
-    illustrate something extra.
+    illustrate something extra.  This implies you may need to add any data you need to your repository!!! NEW
 13. is the package pure python? or does it need accompanying C/C++/Fortran code?
 14. what is the input to the package? Just parameters, or dataset(s), or can they be generated from scratch?
 15. what is the output of the package? Just parameters, or dataset(s)?, or just a screen output you would need to capture
@@ -80,8 +81,15 @@ responsible for finding out that there is no answer!
 23. did you have to learn new python methods to use this package? Or was the class good enough to get you through this project.
 24. Final Disclaimer: you need to state if you have prior experience in using the package or the data, or this is all new to you.
     In addition, if you collaborated in a group, as long as this is your work.
-    
 
+**Summarizing** your github submission should contain the following files:
+
+1.  The PDF report with 25 answers, with at least one figure
+2.  A notebook showing how you used the code, and in particular how your figure was made
+3.  Any optional datafile(s) needed to run the notebook, to make your project reproducable.
+4.  An optional README file if you feel you want to explain how to run your code. You can also
+    include this as a cell in the notebook.
+    
 ## Suggested projects
 
 This list below is an extraction from
@@ -99,7 +107,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - PDRT: Photo Dissociation Region Toolbox - https://ascl.net/1102.022
 
-  This package was written by two astronomers at UMD.
+  OK. This package was written by two astronomers at UMD.
 
 - PySpecKit: Python Spectroscopic Toolkit - https://ascl.net/1109.001 **[peter]**
 
@@ -111,7 +119,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - EzGal: A Flexible Interface for Stellar Population Synthesis Models - https://ascl.net/1208.021
 
-  ok, but no example fits file?
+  OK, but no example fits file?
 
 - pNbody: A python parallelized N-body reduction toolbox - https://ascl.net/1302.004
 
@@ -123,7 +131,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - corner.py: Corner plots - https://ascl.net/1702.002
 
-  Together with emcee a very popular package in the literature. Explores the covariant matrix graphically.
+  OK. Together with emcee a very popular package in the literature. Explores the covariant matrix graphically.
 
 - emcee: The MCMC Hammer (possibly most used code) - https://ascl.net/1303.002	
 
@@ -141,7 +149,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - Astropy: Community Python library for astronomy - https://ascl.net/1304.002
 
-  ok. large body of code, some subset should be used. There's a nice model fitting tool in astropy.
+  OK. large body of code, some subset should be used. There's a nice model fitting tool in astropy.
   also specutils, which is like pyspeckit. And of course fits I/O where you can learn about FITS cubes.
 
 - SunPy: Python for Solar Physicists - https://ascl.net/1401.010		
@@ -152,7 +160,7 @@ Codes annotated with **[peter]** are codes that Peter uses from time to time.
 
 - galpy: Galactic dynamics package - https://ascl.net/1411.008 **[peter]**
 
-  ok. may need compiler
+  OK. may need compiler, not always ideal for windows
 
 - PyBDSF: Python Blob Detection and Source Finder - https://ascl.net/1502.007
 
