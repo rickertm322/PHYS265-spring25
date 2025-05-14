@@ -1,6 +1,6 @@
 # PHYS265 2025 Code Project - version 14-may
 
-   See also: https://github.com/astroumd/PHYS265-spring25-final/blob/main/code_project.md
+   See also: https://github.com/astroumd/PHYS265-spring25-final/blob/main/code_project.md for updates
    
 This *Code Project* is your final project for PHYS265, there is no
 exam.  In this project you will select a (python based) open source
