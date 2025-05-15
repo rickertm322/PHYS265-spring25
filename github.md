@@ -1,3 +1,5 @@
+![github workflow](github-flow.png)
+
 # git and github (2025)
 
 This document originates here: https://github.com/astroumd/PHYS265-spring25/blob/main/github.md
@@ -113,9 +115,13 @@ or anything you prefer.
 
 Settings -> SSH and GPG keys -> new SSH key
 
-https://github.com/settings/keys
+See also https://github.com/settings/keys
 
-There should be more here on how keys are generated with **ssh-keygen** and **ssh-copy-id** 
+      ssh-keygen -t ed..... -C your_email@your.doman
+
+Copy and paste the contents of your ~/.ssh/ed....pub file into the online field 
+
+There could be more here on how keys are generated with **ssh-keygen** and **ssh-copy-id** 
 
 ## Class Repository
 

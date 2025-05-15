@@ -72,6 +72,7 @@ Here are some places to find Open Source codes in Physics and Astronomy
 
 3. Zenodo : https://zenodo.org/
 
+more details in [code_project.md](code_project.md)
 
 
 ## Software Carpentry
